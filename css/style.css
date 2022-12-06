@@ -105,8 +105,8 @@ h1{
 #featured p{
     /* align-self: flex-end; */
     padding: 10% 25% 25% 25%;
-    font-size: 14px;
-    font-family:'Muli'
+    font-size: 18px;
+    font-family:'Times New Roman'
 }
 #form{
     color: #20246f;
@@ -135,7 +135,7 @@ input{
 }
 
 #stripe p{
-    font-size: 14px;
+    font-size: 18px;
     align-self: center;
 
 }
@@ -171,7 +171,7 @@ input{
 }
 
 #gridcontainer1 p{
-    font-size: 17px;
+    font-size: 18px;
     padding: 20% 20% 60% 20%;
     color: white;
     font-family: 'Bungee';
@@ -275,7 +275,7 @@ img:focus{
 
 
 
-@media screen and (min-width: 1200px ){
+@media screen and (min-width: 1000px ){
     #flexcontainer{
         justify-content: space-evenly;
         flex-direction: row;
@@ -287,10 +287,17 @@ img:focus{
     #introcontainer{
         display: block;
     }
-
+    #stripe p{
+        font-size: 30px
     }
-   .sidenav a{
-       display: block;
+    #featured p {
+        font-size: 30px;
+    }
 
-   }
+    #form{
+        font-size: 30px;
+    }
+
+ 
+}
    
