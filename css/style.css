@@ -250,7 +250,7 @@ img:focus{
     filter: grayscale(100%)
 }
 
-@media screen and (min-width: 700px) { 
+@media screen and (min-width: 900) { 
 
     #imagecontainer {
         grid-template-columns: 1fr 1fr;
@@ -275,7 +275,7 @@ img:focus{
 
 
 
-@media screen and (min-width: 1000px ){
+@media screen and (min-width: 1500 ){
     #flexcontainer{
         justify-content: space-evenly;
         flex-direction: row;
