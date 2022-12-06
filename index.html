@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="images/thecube.png"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best of Ann Arbor</title>    
+    </head>
+
+  <body>
+    <div class = 'skip'>
+      <a href = #index> Skip to Main Content</a></div>
+	<header> 
+  
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class ='active' href="index.html">About</a>
+      <a href="activities.html">Activities</a>
+      <a href="restaurants.html">Restaurants</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <script>
+
+      if (window.matchMedia("(min-width: 0px)").matches) {  
+        function openNav(x) {
+        document.getElementById("mySidenav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }}
+      if (window.matchMedia("(min-width: 700)").matches){
+      function openNav(x) {
+        document.getElementById("mySidenav").style.width = "50%";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }}
+
+      if (window.matchMedia("(min-width: 968px)").matches){
+      function openNav(x) {
+        document.getElementById("mySidenav").style.width = "25%";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }}
+     
+  
+ 
+      </script>
+	</header>
+  <h1>Best of Ann Arbor</h1>
+<main id = 'index'>
+  <div id = 'featured1'>
+  <div id = 'featured'>
+    <a href = 'https://www.savasannarbor.com/'> <img src = 'images/savas.jpg' alt = 'savas' tabindex = '0'></a>
+    <p> Check out an Ann Arbor classic, Savas.  Located in a prime location on State St, 
+      Savas just reopened after a huge rennovation and menu redesign.  We are loving the new, upscale
+    menu and cannot wait for more people to try it.   </p>
+  </div>
+</div>
+<div id = 'stripe'>
+<p> A site to find you the best of Ann Arbor.</p>
+
+</div>
+
+<div id = 'form'>
+  <p>
+    Do you have restaurants or activities that you think are of the best of Ann Arbor?<br><br>
+    Fill out the form below for a chance for the restaurant or activity of your choice to get on the Best of Ann Arbor list.
+  </p>
+  <form>
+    <label for="name">Restuarant Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="location">Location:</label><br>
+    <input type="text" id="location" name="location">
+    <br>
+    <br>
+    <input type = 'submit' value = 'Submit'>
+  </form>
+</main>
+
+
+</div>
+</body>
+<footer id = 'foot'>
+    <p> Follow Me</p>
+    <a href = 'https://www.instagram.com/apavell2'> Instagram </a><br>
+    <a href = 'https://www.linkedin.com/in/alana-pavell'> LinkedIn </a><br>
+    <a href = 'https://www.github.io/alana-pavell'> Github </a>
+  </ul>
+</footer>
+
+<!-- <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script> -->
+

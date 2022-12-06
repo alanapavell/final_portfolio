@@ -1,0 +1,87 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="images/thecube.png"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best of Ann Arbor</title>    
+    </head>
+
+	
+  <body>
+	<div class = 'skip'>
+		<a href = #restaurants tabindex="0"> Skip to Main Content</a></div>
+	<header>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html">About</a>
+			<a href="activities.html">Activities</a>
+			<a class ='active' href="restaurants.html">Restaurants</a>
+		  </div>
+		  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+		  <script>
+	      if (window.matchMedia("(min-width: 0px)").matches) {  
+        function openNav(x) {
+        document.getElementById("mySidenav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }}
+      if (window.matchMedia("(min-width: 768px)").matches){
+      function openNav(x) {
+        document.getElementById("mySidenav").style.width = "50%";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }}
+
+      if (window.matchMedia("(min-width: 968px)").matches){
+      function openNav(x) {
+        document.getElementById("mySidenav").style.width = "25%";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }}
+
+			</script>
+	  
+		<h1>Best Restaurants in Ann Arbor</h1>
+	</header>
+
+		<main id = 'restaurants'>
+			<div id = 'gridcontainer1'>
+
+			<div id = 'introcontainer'>
+				<p> Even after three years of sorting through restaurants in Ann Arbor, I still haven't been able to try them all!<br><br>
+				However, I have tried enough to be able to curate a list with all of my favorites that I have tried so far. </p>
+
+			</div>
+		<div id = 'imagecontainer'>
+			<img src = "images/aventura.jpg"  alt ="aventura" tabindex = '0' />
+			<img src = "images/ms kims.jpg" alt ='ms kims' tabindex = '0'/>
+			<img src = "images/savas.jpg" alt = 'savas' tabindex = '0'/>
+			<img src = "images/fritas.jpg" alt = "fritas" tabindex = '0'/>
+			<img src = "images/mani.jpg"  alt = "mani" tabindex = '0'/>
+			<img src = "images/slurtle.jpg"  alt = "slurping turtle" tabindex = '0'/>
+			<img src = "images/mediterrano.jpg"  alt = "mediterrano" tabindex = '0'/>
+			<img src = "images/isalita.jpg" alt = "isalita" tabindex = '0'/>
+			<img src = "images/j garden.jpg" alt = "j garden" tabindex = '0'/>
+
+		</div>
+		</div>		
+
+			</main>
+
+
+	<footer id = 'foot'>
+		<p> Follow Me</p>
+		<a href = 'https://www.instagram.com/apavell2'> Instagram </a><br>
+		<a href = 'https://www.linkedin.com/in/alana-pavell'> LinkedIn </a><br>
+		<a href = 'https://www.github.io/alana-pavell'> Github </a>
+	  </ul>
+	</footer>
+	
