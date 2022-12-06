@@ -41,7 +41,6 @@ a.active {
 
 header{
     background-color: #20246f;
-    color:#fcfcfc
 }
 span{
     padding: 10px
@@ -250,7 +249,7 @@ img:focus{
     filter: grayscale(100%)
 }
 
-@media screen and (min-width: 900) { 
+@media screen and (min-width: 900px) { 
 
     #imagecontainer {
         grid-template-columns: 1fr 1fr;
@@ -275,7 +274,7 @@ img:focus{
 
 
 
-@media screen and (min-width: 1500 ){
+@media screen and (min-width: 1200px){
     #flexcontainer{
         justify-content: space-evenly;
         flex-direction: row;
